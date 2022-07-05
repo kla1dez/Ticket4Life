@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/offWhite">
+
+        <ImageView
+            android:layout_width="332dp"
+            android:layout_height="154dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/banner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="170dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:id="@+id/fName"
+                android:layout_width="500dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:hint="@string/Fname"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/lName"
+                android:layout_width="500dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:hint="@string/lName"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black"
+                app:layout_constraintBottom_toTopOf="@+id/forgotPass"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.246"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <EditText
+                android:id="@+id/bDay"
+                android:layout_width="500dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:hint="@string/bDay"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="500dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:hint="@string/address"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+
+            <EditText
+                android:id="@+id/Age"
+                android:layout_width="500dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:hint="@string/age"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/gender"
+                android:layout_width="500dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:hint="@string/gender"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/mnum"
+                android:layout_width="500dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:hint="@string/mnum"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="500dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:hint="@string/email"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="500dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:hint="@string/pass"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/confirmPass"
+                android:layout_width="500dp"
+                android:layout_height="40dp"
+                android:hint="@string/confirmPass"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+            <Button
+                android:id="@+id/signUp"
+                android:layout_width="305dp"
+                android:layout_height="49dp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/dark_brown"
+                android:text="@string/signUp"
+                android:textAlignment="center"
+                android:textColor="@color/offWhite"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

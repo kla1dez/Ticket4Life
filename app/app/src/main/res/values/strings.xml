@@ -1,0 +1,42 @@
+<resources>
+
+
+    <!-- Strings used for landing page -->
+    <string name="landing_name">OrganHope</string>
+    <string name="get_started">Get Started</string>
+    <string name="terms_condition">Terms and Condition</string>
+    <string name="welcome_msg">Welcome to OrganHope. Save life and live happily.</string>
+    <string name="text1">Donor Help Finder</string>
+    <string name="text2">Create an Admin Account</string>
+
+    //first page
+    <string name="Admin">Admin</string>
+    <string name="Client">Client</string>
+
+    //Client login
+    <string name="email_login">Email</string>
+    <string name="pass_login">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_pass">Forgot your password?</string>
+    <string name="signup">Not a Client? Sign Up Now!</string>
+
+
+    //Client Sign Up
+    <string name="register">Create a Client Account</string>
+    <string name="signUp">Sign Up</string>
+    <string name="Fname">First Name</string>
+    <string name="lName">Last Name</string>
+    <string name="bDay">Date of Birth</string>
+    <string name="address">Address</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="mnum">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="confirmPass">Confirm Password</string>
+
+
+
+
+
+</resources>

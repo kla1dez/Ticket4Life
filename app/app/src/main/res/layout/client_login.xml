@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/offWhite"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+
+        <ImageView
+            android:layout_width="222dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/test" />
+
+        <EditText
+            android:id="@+id/email_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/email_login"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textColorHint="@android:color/black" />
+
+        <EditText
+            android:id="@+id/pass_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/pass_login"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/black" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="fill_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="20dip"
+            android:backgroundTint="@color/dark_brown"
+            android:text="@string/login"
+            android:textColor="@color/offWhite"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/forgotPass"
+            android:layout_width="268dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="40dip"
+            android:backgroundTint="@color/offWhite"
+            android:text="@string/forgot_pass"
+            android:textColor="@color/black"
+            android:textSize="11sp" />
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="266dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:backgroundTint="@color/offWhite"
+            android:text="@string/signup"
+            android:textColor="@color/black"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
